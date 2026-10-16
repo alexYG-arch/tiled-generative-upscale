@@ -1,0 +1,6 @@
+interface:
+  display_name: "分块生成式高清放大"
+  short_description: "按图片内容和放大倍数自动切片，逐片生成细节、校验接缝并合并交付"
+  default_prompt: "使用 $tiled-generative-upscale，按我提供的图片和放大倍数计算切片，检查内容范围，统一提示词并逐片生成、验证和拼合交付。"
+policy:
+  allow_implicit_invocation: true
